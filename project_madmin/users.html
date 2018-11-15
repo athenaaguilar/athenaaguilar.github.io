@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Import Google Icon Font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Import materialize.css -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madmin</title>
+  </head>
+
+  <body class="grey lighten-4">
+    <nav class="blue darken-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Madmin</a>
+          <a
+            href="#"
+            data-activates="side-nav"
+            class="button-collapse show-on-large right"
+          >
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li class="active"><a href="users.html">Users</a></li>
+          </ul>
+          <!-- Side nav -->
+          <ul id="side-nav" class="side-nav">
+            <li>
+              <div class="user-view">
+                <div class="background"><img src="img/ocean.jpg" alt="" /></div>
+                <a href="#">
+                  <img src="img/nayeon.jpg" alt="" class="circle" />
+                </a>
+                <a href="#"> <span class="name white-text">Im Nayeon</span> </a>
+                <a href="#">
+                  <span class="email white-text">nabong@gmail.com</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <a href="index.html">
+                <i class="material-icons">dashboard</i>Dashboard</a>
+            </li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li class="active"><a href="users.html">Users</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Account Controls</a></li>
+            <li><a href="login.html" class="waves-effect">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section: Categories -->
+    <section class="section section-categories grey lighten-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Users</span>
+                <table class="striped responsive-table">
+                  <thead>
+                    <tr>
+                      <th width="75"></th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Registered</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/nayeon.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Im Nayeon</td>
+                      <td>nayeon@gmail.com</td>
+                      <td>September 22, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/jeongyeon.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Yoo Jeongyeon</td>
+                      <td>jeongyeon@gmail.com</td>
+                      <td>November 1, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                        <img class="responsive-img circle" src="img/momo.jpg" style="width: 40px; margin-left: 14px">
+                      </td>
+                      <td>Hirai Momo</td>
+                      <td>momo@gmail.com</td>
+                      <td>November 9, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/sana.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Minatozaki Sana</td>
+                      <td>sana@gmail.com</td>
+                      <td>December 29, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/jihyo.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Park Jihyo</td>
+                      <td>jihyo@gmail.com</td>
+                      <td>February 1, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/mina.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Myoui Mina</td>
+                      <td>mina@gmail.com</td>
+                      <td>March 24, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/dahyun.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Kim Dahyun</td>
+                      <td>dahyun@gmail.com</td>
+                      <td>May 28, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/chaeyoung.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Son Chaeyoung</td>
+                      <td>chaeyoung@gmail.com</td>
+                      <td>April 23, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="75">
+                          <img class="responsive-img circle" src="img/tzuyu.jpg" style="width: 40px; margin-left: 14px">
+                        </td>
+                      <td>Chou Tzuyu</td>
+                      <td>tzuyu@gmail.com</td>
+                      <td>June 14, 2018</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-action">
+                <ul class="pagination">
+                  <li class="disabled">
+                    <a href="#!" class="blue-text">
+                      <i class="material-icons">chevron_left</i>
+                    </a>
+                  </li>
+                  <li class="active blue lighten-2">
+                    <a href="#!" class="white-text">1</a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="blue-text">2</a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="blue-text">3</a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="blue-text">4</a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="blue-text">5</a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="blue-text">
+                      <i class="material-icons">chevron_right</i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section blue darken-2 white-text center">
+      <h6>Madmin Panel Copyright &copy; 2018</h6>
+    </footer>
+
+    <!-- Fixed Action Button -->
+    <div class="fixed-action-btn">
+      <a href="#user-modal" class="modal-trigger btn-floating btn-large red">
+        <i class="material-icons">add</i>
+      </a>
+    </div>
+
+    <!-- Modal: Add User -->
+    <div class="modal" id="user-modal">
+      <div class="modal-content">
+        <h5 class="modal-title">Add User</h5>
+        <form>
+          <div class="input-field">
+            <input type="text" id="name">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field">
+            <input type="email" id="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" id="password">
+            <label for="password">Password</label>
+          </div>
+          <div class="input-field">
+            <input type="password" id="password2">
+            <label for="password2">Confirm Password</label>
+          </div>
+        </form>
+        <div class="modal-footer">
+          <a href="" class="modal-action modal-close btn blue white-text">Submit</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader-wrapper large active loader">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import jQuery before materialize.js -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script>
+      //Hide Section
+      $('.section').hide();
+      setTimeout(function() {
+        $(document).ready(function() {
+          //Show Sections
+          $('.section').fadeIn();
+
+          //Hide Preloader
+          $('.loader').fadeOut();
+
+          //Init Side Nav
+          $('.button-collapse').sideNav();
+
+          //Init Modal
+          $('.modal').modal();
+
+        });
+      }, 1000);
+
+    </script>
+  </body>
+</html>

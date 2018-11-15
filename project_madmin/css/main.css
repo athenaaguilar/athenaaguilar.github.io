@@ -1,0 +1,28 @@
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 10%;
+  left:5%;
+}
+
+.modal-title {
+  margin-bottom: 25px;
+}
+
+.login {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.btn-extended {
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
